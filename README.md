@@ -119,6 +119,7 @@ Everything that checks or constrains what the agent did — before, during and a
 - **[react-doctor](https://github.com/millionco/react-doctor)** — catches the bad React your agent writes.
 - **[tuicr](https://github.com/agavra/tuicr)** — the human half of the loop: a terminal code reviewer with vim bindings, line-level comments, per-file/hunk seen-tracking across sessions, and export to GitHub/GitLab. Reviews uncommitted changes — exactly the diff your agent just produced.
 - **[dcg](https://github.com/Dicklesworthstone/destructive_command_guard)** — blocks destructive git and shell commands before the agent executes them; a guard layer over any CLI agent.
+- **[HOL Guard](https://github.com/hashgraph-online/hol-guard)** — reviews supported coding-agent shell commands, file access, package installs and MCP tool calls before execution, then allows, blocks or requests approval according to local policy.
 - **[Mindwalk](https://github.com/cosmtrek/mindwalk)** — replays an agent session on a 3D map of the codebase: where it walked, what it touched.
 
 ## Security: pentest, reverse engineering and audit
